@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "416301751423",
+    "firebase_url": "https://vecinoapp-ccaa5-default-rtdb.firebaseio.com",
+    "project_id": "vecinoapp-ccaa5",
+    "storage_bucket": "vecinoapp-ccaa5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416301751423:android:78cbbd495b3eb599dab34a",
+        "android_client_info": {
+          "package_name": "com.zahid_iqbal699.vecinoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416301751423-f8d4suobju3rmvcshggs2vvv1ggbclav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQsvhjPMeEiWNvN2RggeROv7qkU4760cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416301751423-f8d4suobju3rmvcshggs2vvv1ggbclav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/drawable-v24/btn_background.xml" value="0.19375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.19375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.19375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/drawable/ic_home.xml" value="0.19375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/drawable/ic_home_24.xml" value="0.19375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/drawable/ic_search_timetable_details.xml" value="0.19375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/drawable/ic_share_24.xml" value="0.19375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/activity_add_initiative.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/activity_edit_initiative.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/activity_initiative_details.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/activity_log_in.xml" value="0.18" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/activity_main.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/activity_neighbors_select.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/activity_sign_up.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/include.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/nav_header_home.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/signle_item_neighbour.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/signle_layout_edit.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/single_item_initiative.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/layout/single_item_user_list.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/menu/activity_dashboard_drawer.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/menu/menu_tab.xml" value="0.1734375" />
+        <entry key="..\:/Final Year Projects/VecinoApp/app/src/main/res/menu/nav_menu.xml" value="0.1734375" />
+        <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/activity_add_initiative.xml" value="0.2537037037037037" />
+        <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/activity_edit_initiative.xml" value="0.2537037037037037" />
+        <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/activity_initiative_details.xml" value="0.2537037037037037" />
+        <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/activity_log_in.xml" value="0.375" />
+        <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/activity_main.xml" value="0.2537037037037037" />
+        <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/activity_neighbors_select.xml" value="0.2537037037037037" />
+        <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/activity_splash_screen.xml" value="0.2537037037037037" />
+        <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/include.xml" value="0.2537037037037037" />
+        <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/nav_header_home.xml" value="0.2537037037037037" />
+        <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/signle_item_neighbour.xml" value="0.2537037037037037" />
+        <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/single_item_initiative.xml" value="0.2537037037037037" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
