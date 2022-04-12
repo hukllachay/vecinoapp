@@ -50,7 +50,7 @@
                     android:gravity="start"
                     android:text="date"
                     android:textAlignment="textStart"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="12sp" />
 
                 <TextView
@@ -79,7 +79,7 @@
                     android:gravity="start"
                     android:text="Status"
                     android:textAlignment="textStart"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="12sp" />
 
                 <TextView

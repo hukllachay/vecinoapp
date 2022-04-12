@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zahid_iqbal699.vecinoapp">
+    package="com.IS215_Final.vecinoapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,25 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VecinoApp">
         <activity
-            android:name=".Activities.EditInitiativeActivity"
+            android:name="com.IS215_Final.vecinoapp.Activities.EditInitiativeActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.InitiativeDetailsActivity"
+            android:name="com.IS215_Final.vecinoapp.Activities.InitiativeDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.NeighborsSelectActivity"
+            android:name="com.IS215_Final.vecinoapp.Activities.NeighborsSelectActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.AddInitiativeActivity"
+            android:name="com.IS215_Final.vecinoapp.Activities.AddInitiativeActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.SignUpActivity"
+            android:name="com.IS215_Final.vecinoapp.Activities.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.LogInActivity"
+            android:name="com.IS215_Final.vecinoapp.Activities.LogInActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.SplashScreen"
+            android:name="com.IS215_Final.vecinoapp.Activities.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activities.MainActivity"
+            android:name="com.IS215_Final.vecinoapp.Activities.MainActivity"
             android:exported="true" />
     </application>
 

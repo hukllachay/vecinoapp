@@ -1,4 +1,4 @@
-package com.zahid_iqbal699.vecinoapp.Activities;
+package com.IS215_Final.vecinoapp.Activities;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -27,13 +27,13 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.google.gson.Gson;
-import com.zahid_iqbal699.vecinoapp.Adapters.NeighborSelectAdapter;
-import com.zahid_iqbal699.vecinoapp.FirebaseHelper.FirebaseDatabaseHelper;
-import com.zahid_iqbal699.vecinoapp.FirebaseHelper.PreferencesManager;
-import com.zahid_iqbal699.vecinoapp.Models.InitiativesModel;
-import com.zahid_iqbal699.vecinoapp.Models.NeighborsModel;
-import com.zahid_iqbal699.vecinoapp.Models.UserModel;
-import com.zahid_iqbal699.vecinoapp.R;
+import com.IS215_Final.vecinoapp.Adapters.NeighborSelectAdapter;
+import com.IS215_Final.vecinoapp.FirebaseHelper.FirebaseDatabaseHelper;
+import com.IS215_Final.vecinoapp.FirebaseHelper.PreferencesManager;
+import com.IS215_Final.vecinoapp.Models.InitiativesModel;
+import com.IS215_Final.vecinoapp.Models.NeighborsModel;
+import com.IS215_Final.vecinoapp.Models.UserModel;
+import com.IS215_Final.vecinoapp.R;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

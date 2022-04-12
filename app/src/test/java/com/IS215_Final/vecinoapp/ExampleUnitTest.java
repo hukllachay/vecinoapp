@@ -1,4 +1,4 @@
-package com.zahid_iqbal699.vecinoapp;
+package com.IS215_Final.vecinoapp;
 
 import org.junit.Test;
 

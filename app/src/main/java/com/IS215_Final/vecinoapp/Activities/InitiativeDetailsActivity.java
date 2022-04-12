@@ -1,4 +1,4 @@
-package com.zahid_iqbal699.vecinoapp.Activities;
+package com.IS215_Final.vecinoapp.Activities;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -25,10 +25,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.gson.Gson;
-import com.zahid_iqbal699.vecinoapp.Adapters.NeighborsAdapter;
-import com.zahid_iqbal699.vecinoapp.Models.InitiativesModel;
-import com.zahid_iqbal699.vecinoapp.Models.NeighborsModel;
-import com.zahid_iqbal699.vecinoapp.R;
+import com.IS215_Final.vecinoapp.Adapters.NeighborsAdapter;
+import com.IS215_Final.vecinoapp.Models.InitiativesModel;
+import com.IS215_Final.vecinoapp.Models.NeighborsModel;
+import com.IS215_Final.vecinoapp.R;
 
 import java.util.ArrayList;
 import java.util.Objects;

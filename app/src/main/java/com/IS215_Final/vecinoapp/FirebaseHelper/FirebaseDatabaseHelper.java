@@ -1,4 +1,4 @@
-package com.zahid_iqbal699.vecinoapp.FirebaseHelper;
+package com.IS215_Final.vecinoapp.FirebaseHelper;
 
 import android.content.Context;
 
@@ -10,7 +10,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.zahid_iqbal699.vecinoapp.Models.UserModel;
+import com.IS215_Final.vecinoapp.Models.UserModel;
 
 import java.util.Objects;
 

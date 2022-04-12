@@ -1,4 +1,4 @@
-package com.zahid_iqbal699.vecinoapp.Models;
+package com.IS215_Final.vecinoapp.Models;
 
 public class InitiativesModel {
     private String iId, iTitle, iDateFrom, iDateTo, iTipo, iStatus,iDescription,uid,iDate;

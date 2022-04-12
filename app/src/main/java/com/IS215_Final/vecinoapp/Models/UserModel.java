@@ -1,4 +1,4 @@
-package com.zahid_iqbal699.vecinoapp.Models;
+package com.IS215_Final.vecinoapp.Models;
 
 public class UserModel {
     private String uid,uName,uEmail,uPassword,uDNI,uAddress;

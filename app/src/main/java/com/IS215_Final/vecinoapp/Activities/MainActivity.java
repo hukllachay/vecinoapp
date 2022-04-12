@@ -1,4 +1,4 @@
-package com.zahid_iqbal699.vecinoapp.Activities;
+package com.IS215_Final.vecinoapp.Activities;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -34,12 +34,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.zahid_iqbal699.vecinoapp.Adapters.InitiativesAdapter;
-import com.zahid_iqbal699.vecinoapp.BuildConfig;
-import com.zahid_iqbal699.vecinoapp.FirebaseHelper.PreferencesManager;
-import com.zahid_iqbal699.vecinoapp.Models.InitiativesModel;
-import com.zahid_iqbal699.vecinoapp.Models.UserModel;
-import com.zahid_iqbal699.vecinoapp.R;
+import com.IS215_Final.vecinoapp.Adapters.InitiativesAdapter;
+import com.IS215_Final.vecinoapp.BuildConfig;
+import com.IS215_Final.vecinoapp.FirebaseHelper.PreferencesManager;
+import com.IS215_Final.vecinoapp.Models.InitiativesModel;
+import com.IS215_Final.vecinoapp.Models.UserModel;
+import com.IS215_Final.vecinoapp.R;
 
 import java.util.ArrayList;
 
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
                 sendIntent.putExtra(Intent.EXTRA_TEXT,
-                        "Hey check out latest punjabi songs at: https://play.google.com/store/apps/details?id="
+                        "share"
                                 + BuildConfig.APPLICATION_ID);
                 sendIntent.setType("text/plain");
                 startActivity(sendIntent);

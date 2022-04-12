@@ -1,11 +1,10 @@
-package com.zahid_iqbal699.vecinoapp.Activities;
+package com.IS215_Final.vecinoapp.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
@@ -26,10 +25,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.database.annotations.NotNull;
-import com.zahid_iqbal699.vecinoapp.FirebaseHelper.FirebaseDatabaseHelper;
-import com.zahid_iqbal699.vecinoapp.FirebaseHelper.PreferencesManager;
-import com.zahid_iqbal699.vecinoapp.Models.UserModel;
-import com.zahid_iqbal699.vecinoapp.R;
+import com.IS215_Final.vecinoapp.FirebaseHelper.FirebaseDatabaseHelper;
+import com.IS215_Final.vecinoapp.FirebaseHelper.PreferencesManager;
+import com.IS215_Final.vecinoapp.Models.UserModel;
+import com.IS215_Final.vecinoapp.R;
 
 public class LogInActivity extends AppCompatActivity {
     private static final String TAG = "TAG";

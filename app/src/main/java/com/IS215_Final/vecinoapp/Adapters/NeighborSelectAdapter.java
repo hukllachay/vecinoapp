@@ -1,4 +1,4 @@
-package com.zahid_iqbal699.vecinoapp.Adapters;
+package com.IS215_Final.vecinoapp.Adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,8 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.mikhaellopez.circularimageview.CircularImageView;
-import com.zahid_iqbal699.vecinoapp.Models.UserModel;
-import com.zahid_iqbal699.vecinoapp.R;
+import com.IS215_Final.vecinoapp.Models.UserModel;
+import com.IS215_Final.vecinoapp.R;
 
 import java.util.ArrayList;
 
