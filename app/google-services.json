@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "64239895757",
-    "project_id": "is215final",
-    "firebase_url": "https://is215final-default-rtdb.firebaseio.com/",
-    "storage_bucket": "is215final.appspot.com"
+    "project_number": "416301751423",
+    "firebase_url": "https://vecinoapp-ccaa5-default-rtdb.firebaseio.com",
+    "project_id": "vecinoapp-ccaa5",
+    "storage_bucket": "vecinoapp-ccaa5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:64239895757:android:817c3baf33577f39d69584",
+        "mobilesdk_app_id": "1:416301751423:android:78cbbd495b3eb599dab34a",
         "android_client_info": {
-          "package_name": "com.IS215_Final.vecinoapp"
+          "package_name": "com.zahid_iqbal699.vecinoapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "64239895757-s2o72vtim9nc9vfgier20mriig5jvlse.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.IS215_Final.vecinoapp",
-            "certificate_hash": "771ec0fd5ac537763e179646bf4ba4d261953bf3"
-          }
-        },
-        {
-          "client_id": "64239895757-cafc9itvgnn5u6213qb271cj45n9t3d8.apps.googleusercontent.com",
+          "client_id": "416301751423-f8d4suobju3rmvcshggs2vvv1ggbclav.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDAP22sOiMcOxEZpaMv8Kgqm6iAH46mX2I"
+          "current_key": "AIzaSyDQsvhjPMeEiWNvN2RggeROv7qkU4760cw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "64239895757-cafc9itvgnn5u6213qb271cj45n9t3d8.apps.googleusercontent.com",
+              "client_id": "416301751423-f8d4suobju3rmvcshggs2vvv1ggbclav.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

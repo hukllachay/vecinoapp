@@ -1,6 +1,6 @@
-package com.IS215_Final.vecinoapp.Adapters;
+package com.zahid_iqbal699.vecinoapp.Adapters;
 
-import static com.IS215_Final.vecinoapp.Activities.SplashScreen.TAG;
+import static com.zahid_iqbal699.vecinoapp.Activities.SplashScreen.TAG;
 
 import android.content.Context;
 import android.util.Log;
@@ -24,8 +24,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.IS215_Final.vecinoapp.Models.NeighborsModel;
-import com.IS215_Final.vecinoapp.R;
+import com.zahid_iqbal699.vecinoapp.Models.NeighborsModel;
+import com.zahid_iqbal699.vecinoapp.R;
 
 import java.util.ArrayList;
 

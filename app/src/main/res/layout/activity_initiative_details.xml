@@ -203,7 +203,7 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_baseline_person_24"
                 app:fab_colorNormal="@color/colorPrimaryDark"
-                fab:fab_label="Agregar vecinos"
+                fab:fab_label="Agregar vecino"
                 fab:fab_size="mini"
                 fab:menu_labels_textColor="@color/black" />
 
@@ -214,10 +214,8 @@
                 android:src="@drawable/ic_baseline_delete_24"
                 app:fab_colorNormal="@color/colorPrimaryDark"
                 fab:fab_label="Eliminar iniciativa"
-
                 fab:fab_size="mini"
-                fab:menu_labels_textColor="@color/black"
-                />
+                fab:menu_labels_textColor="@color/black" />
 
             <com.github.clans.fab.FloatingActionButton
                 android:id="@+id/fbEdit"

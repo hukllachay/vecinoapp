@@ -1,10 +1,10 @@
-package com.IS215_Final.vecinoapp.FirebaseHelper;
+package com.zahid_iqbal699.vecinoapp.FirebaseHelper;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.google.gson.Gson;
-import com.IS215_Final.vecinoapp.Models.UserModel;
+import com.zahid_iqbal699.vecinoapp.Models.UserModel;
 
 
 public class PreferencesManager {

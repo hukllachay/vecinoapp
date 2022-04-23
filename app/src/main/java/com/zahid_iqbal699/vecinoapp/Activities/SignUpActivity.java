@@ -1,4 +1,4 @@
-package com.IS215_Final.vecinoapp.Activities;
+package com.zahid_iqbal699.vecinoapp.Activities;
 
 
 import android.app.ProgressDialog;
@@ -15,9 +15,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.IS215_Final.vecinoapp.FirebaseHelper.FirebaseDatabaseHelper;
-import com.IS215_Final.vecinoapp.Models.UserModel;
-import com.IS215_Final.vecinoapp.R;
+import com.zahid_iqbal699.vecinoapp.FirebaseHelper.FirebaseDatabaseHelper;
+import com.zahid_iqbal699.vecinoapp.Models.UserModel;
+import com.zahid_iqbal699.vecinoapp.R;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 

@@ -1,4 +1,4 @@
-package com.IS215_Final.vecinoapp.Adapters;
+package com.zahid_iqbal699.vecinoapp.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -17,10 +18,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.gson.Gson;
-import com.IS215_Final.vecinoapp.Activities.InitiativeDetailsActivity;
-import com.IS215_Final.vecinoapp.Models.InitiativesModel;
-import com.IS215_Final.vecinoapp.Models.NeighborsModel;
-import com.IS215_Final.vecinoapp.R;
+import com.zahid_iqbal699.vecinoapp.Activities.InitiativeDetailsActivity;
+import com.zahid_iqbal699.vecinoapp.Models.InitiativesModel;
+import com.zahid_iqbal699.vecinoapp.Models.NeighborsModel;
+import com.zahid_iqbal699.vecinoapp.R;
 
 import java.util.ArrayList;
 

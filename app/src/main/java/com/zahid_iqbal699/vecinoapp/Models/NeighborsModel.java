@@ -1,4 +1,4 @@
-package com.IS215_Final.vecinoapp.Models;
+package com.zahid_iqbal699.vecinoapp.Models;
 
 public class NeighborsModel {
     private String nId,nName,nParStatus,nNotes;

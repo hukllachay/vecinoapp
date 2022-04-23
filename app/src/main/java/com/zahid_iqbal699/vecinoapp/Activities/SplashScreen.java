@@ -1,4 +1,4 @@
-package com.IS215_Final.vecinoapp.Activities;
+package com.zahid_iqbal699.vecinoapp.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.IS215_Final.vecinoapp.R;
+import com.zahid_iqbal699.vecinoapp.R;
 
 public class SplashScreen extends AppCompatActivity {
     public static final String TAG = "TAG";

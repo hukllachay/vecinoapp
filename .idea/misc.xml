@@ -38,19 +38,10 @@
         <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/nav_header_home.xml" value="0.2537037037037037" />
         <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/signle_item_neighbour.xml" value="0.2537037037037037" />
         <entry key="..\:/Limber/Temp/VecinoApp - Copy v2/VecinoApp - Copy/app/src/main/res/layout/single_item_initiative.xml" value="0.2537037037037037" />
-        <entry key="..\:/Users/JCFC/Documents/GitHub/vecinoapp/app/src/main/res/drawable-v24/btn_background.xml" value="0.1045" />
-        <entry key="..\:/Users/JCFC/Documents/GitHub/vecinoapp/app/src/main/res/layout/activity_add_initiative.xml" value="0.20244565217391305" />
-        <entry key="..\:/Users/JCFC/Documents/GitHub/vecinoapp/app/src/main/res/layout/activity_edit_initiative.xml" value="0.20244565217391305" />
-        <entry key="..\:/Users/JCFC/Documents/GitHub/vecinoapp/app/src/main/res/layout/activity_initiative_details.xml" value="0.20244565217391305" />
-        <entry key="..\:/Users/JCFC/Documents/GitHub/vecinoapp/app/src/main/res/layout/activity_log_in.xml" value="0.12777777777777777" />
-        <entry key="..\:/Users/JCFC/Documents/GitHub/vecinoapp/app/src/main/res/layout/activity_main.xml" value="0.20244565217391305" />
-        <entry key="..\:/Users/JCFC/Documents/GitHub/vecinoapp/app/src/main/res/layout/include.xml" value="0.20244565217391305" />
-        <entry key="..\:/Users/JCFC/Documents/GitHub/vecinoapp/app/src/main/res/layout/signle_item_neighbour.xml" value="0.20244565217391305" />
-        <entry key="..\:/Users/JCFC/Documents/GitHub/vecinoapp/app/src/main/res/layout/single_item_initiative.xml" value="0.20244565217391305" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
