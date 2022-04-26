@@ -22,6 +22,18 @@ public class SplashScreen extends AppCompatActivity {
                 @Override
                 public void onFinish() {
                     Intent intent = new Intent(getBaseContext(), LogInActivity.class);
+                    // Pass along FCM messages/notifications etc.
+                    Bundle extras = getIntent().getExtras();
+                    if (extras != null) {
+                        Log.d("MSG==>", "SplashScreen getExtras not null");
+                        for (String key : extras.keySet()) {
+                            Log.e("MSG==>", key + " : " + (extras.get(key) != null ? extras.get(key) : "NULL"));
+                        }
+                        //intent.putExtras(extras);
+                    } else
+                    {
+                        Log.d("MSG==>", "SplashScreen getExtras not null");
+                    }
                     startActivity(intent);
                     finish();
                     //overridePendingTransition(R.anim.fade_in, R.anim.fade_out);

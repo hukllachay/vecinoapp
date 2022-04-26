@@ -61,6 +61,7 @@
                 android:clickable="true"
                 android:outlineAmbientShadowColor="@color/colorPrimaryDark"
                 android:tint="@color/white"
+                android:contentDescription="Add"
                 app:backgroundTint="@color/white"
                 app:srcCompat="@drawable/ic_input_add"
                 tools:ignore="VectorDrawableCompat" />
@@ -98,6 +99,16 @@
                     android:textColor="@color/black"
                     android:textSize="18sp" />
             </LinearLayout>
+
+            <Button
+                android:id="@+id/btnServicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginBottom="34dp"
+                android:text="Servicio..." />
         </RelativeLayout>
     </LinearLayout>
 

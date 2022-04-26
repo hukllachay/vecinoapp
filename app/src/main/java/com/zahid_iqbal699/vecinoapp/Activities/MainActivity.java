@@ -1,5 +1,6 @@
 package com.zahid_iqbal699.vecinoapp.Activities;
 
+import android.app.ActivityManager;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +11,7 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
@@ -34,8 +36,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.messaging.FirebaseMessaging;
+import com.google.firebase.messaging.FirebaseMessagingRegistrar;
+import com.google.firebase.messaging.FirebaseMessagingService;
 import com.zahid_iqbal699.vecinoapp.Adapters.InitiativesAdapter;
 import com.zahid_iqbal699.vecinoapp.BuildConfig;
+import com.zahid_iqbal699.vecinoapp.FirebaseHelper.FirebaseMensaje;
 import com.zahid_iqbal699.vecinoapp.FirebaseHelper.PreferencesManager;
 import com.zahid_iqbal699.vecinoapp.Models.InitiativesModel;
 import com.zahid_iqbal699.vecinoapp.Models.UserModel;
@@ -60,11 +66,34 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private Context context;
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         try {
+
+            isMyServiceRunning(FirebaseMensaje.class);
+
+            Button btnServicio = findViewById(R.id.btnServicio);
+
+            btnServicio.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if(isMyServiceRunning(FirebaseMensaje.class))
+                    {
+                        btnServicio.setText("Iniciado");
+                        //stopService(new Intent(MainActivity.this, FirebaseMensaje.class));
+                    } else
+                    {
+                        btnServicio.setText("Detenido");
+                        startService(new Intent(MainActivity.this, FirebaseMensaje.class));
+                    }
+                }
+            });
+
             //
             preferencesManager = new PreferencesManager(this);
             currentUser = preferencesManager.getCurrentUser();
@@ -254,5 +283,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onResume() {
         super.onResume();
         getAllPlayList();
+    }
+
+    private boolean isMyServiceRunning(Class<?> serviceClass) {
+        ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
+        for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
+            if (serviceClass.getName().equals(service.service.getClassName())) {
+                Log.d("MSG==>", "Servicio Corriendo");
+                return true;
+            }
+        }
+        Log.d("MSG==>", "Servicio Detenido");
+        return false;
     }
 }

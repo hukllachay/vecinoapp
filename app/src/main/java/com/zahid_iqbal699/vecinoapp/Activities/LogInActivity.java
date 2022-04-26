@@ -124,7 +124,21 @@ public class LogInActivity extends AppCompatActivity {
                                     pbLogin.setVisibility(View.GONE);
                                     btnLogIn.setVisibility(View.VISIBLE);
                                     Log.e(TAG, "onLoadUserInfoComplete:Redirecting ");
-                                    startActivity(new Intent(LogInActivity.this, MainActivity.class));
+
+                                    Intent intent = new Intent(LogInActivity.this, MainActivity.class);
+                                    // Pass along FCM messages/notifications etc.
+                                    Bundle extras = getIntent().getExtras();
+                                    if (extras != null) {
+                                        Log.d("MSG==>", "LoginActivity getExtras not null");
+                                        for (String key : extras.keySet()) {
+                                            Log.e("MSG==>", key + " : " + (extras.get(key) != null ? extras.get(key) : "NULL"));
+                                        }
+                                        //intent.putExtras(extras);
+                                    } else
+                                    {
+                                        Log.d("MSG==>", "LoginActivity getExtras not null");
+                                    }
+                                    startActivity(intent);
                                     LogInActivity.this.finish();
                                     tableUser.removeEventListener(this);
                                 } else {

@@ -8,12 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:416301751423:android:78cbbd495b3eb599dab34a",
+        "mobilesdk_app_id": "1:416301751423:android:e33118aeb31684a5dab34a",
         "android_client_info": {
           "package_name": "com.zahid_iqbal699.vecinoapp"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "416301751423-mk4ptobrov8tnreers8m27l3a28f5io4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zahid_iqbal699.vecinoapp",
+            "certificate_hash": "771ec0fd5ac537763e179646bf4ba4d261953bf3"
+          }
+        },
         {
           "client_id": "416301751423-f8d4suobju3rmvcshggs2vvv1ggbclav.apps.googleusercontent.com",
           "client_type": 3
