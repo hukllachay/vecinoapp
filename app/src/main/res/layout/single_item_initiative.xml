@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvSupervisorList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="4dp"
+    app:cardBackgroundColor="@color/colorPrimaryDark"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvProjectName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4sp"
+                android:layout_marginLeft="4sp"
+                android:gravity="start"
+                android:fontFamily="@font/bold"
+                android:text="Name"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/regular"
+                    android:gravity="start"
+                    android:text="date"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/TvProgressStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginLeft="16sp"
+                    android:gravity="start"
+                    android:fontFamily="@font/semi_bold"
+                    android:textAlignment="textStart"
+                    android:textColor="#4CAF50"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvProjectStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/regular"
+                    android:gravity="start"
+                    android:text="Status"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvPercent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginLeft="16sp"
+                    android:gravity="start"
+                    android:fontFamily="@font/bold"
+                    android:text="Status"
+                    android:textAlignment="textStart"
+                    android:textColor="#4CAF50"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

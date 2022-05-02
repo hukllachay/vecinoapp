@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.grupo1.vecinoapp.Location.MultiTouchMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/colorAccent" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/location_pin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:layout_marginEnd="20dp"
+        android:background="@color/lightGrey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/back_btn" />
+
+    <ImageView
+        android:id="@+id/search_btn"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="10dp"
+        android:padding="3dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_baseline_search_24"
+        app:layout_constraintBottom_toBottomOf="@id/search_view"
+        app:layout_constraintStart_toStartOf="@id/search_view"
+        app:layout_constraintTop_toTopOf="@id/search_view"
+        app:tint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/search_txt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/lightGrey"
+        android:gravity="center_vertical"
+        android:hint="Busca tu ubicación"
+        android:maxLines="1"
+        android:visibility="gone"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_color"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/search_view"
+        app:layout_constraintEnd_toEndOf="@id/search_view"
+        app:layout_constraintStart_toEndOf="@id/search_btn"
+        app:layout_constraintTop_toTopOf="@id/search_view" />
+
+    <LinearLayout
+        android:id="@+id/address_lay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/search_view"
+        app:layout_constraintStart_toStartOf="@id/search_view"
+        app:layout_constraintTop_toBottomOf="@id/search_view">
+
+        <TextView
+            android:id="@+id/address_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_lay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_view">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/search_view_recy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/save_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Guardar Ubicación"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

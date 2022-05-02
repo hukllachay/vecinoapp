@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/ivMain"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:civ_border="true"
+                app:civ_border_color="@color/colorPrimaryDark"
+                app:civ_border_width="1dp"
+                android:src="@drawable/default_profile" />
+
+            <ImageButton
+                android:id="@+id/ibChooseImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_background"
+                android:src="@drawable/ic_input_add" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/semi_bold"
+            android:text="@string/register"
+            android:textColor="@color/colorPrimary"
+            android:textSize="28sp"
+            android:visibility="gone" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="@font/semi_bold"
+            android:text="Nombre"
+            android:textColor="#6E6A6A"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/round_edittext"
+            android:fontFamily="@font/regular"
+            android:hint="Ingresar Nombre"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="@font/semi_bold"
+            android:text="DNI"
+            android:textColor="#6E6A6A"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etDNI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/round_edittext"
+            android:fontFamily="@font/regular"
+            android:hint="Ingresar DNI"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="@font/semi_bold"
+            android:text="Dirección"
+            android:textColor="#6E6A6A"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/round_edittext"
+            android:fontFamily="@font/regular"
+            android:hint="Ingresar Dirección"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/semi_bold"
+            android:text="Forgot Password?"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnLogIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_background"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Actualizar "
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ProgressBar
+                android:id="@+id/pbLogin"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+

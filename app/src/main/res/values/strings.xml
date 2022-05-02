@@ -1,0 +1,28 @@
+<resources>
+    <string name="map_api_key">AIzaSyDIsZdb4NvUnv1er3SenoAKvi9kcSDMci8</string>
+    <string name="login_success">Acceso exitoso</string>
+    <string name="login_cancelled">Inicio de sesión cancelado</string>
+    <string name="app_name">VecinoApp</string>
+    <string name="login">Iniciar</string>
+    <string name="register">Registro</string>
+    <string name="password">Contraseña</string>
+    <string name="no_project_s_found">Datos no encontrados</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string-array name="status_array">
+        <item>Pendiente</item>
+        <item>En Progreso</item>
+        <item>Completado</item>
+    </string-array>
+    <string-array name="tipo_array">
+        <item>Colecta</item>
+        <item>Seguridad</item>
+        <item>Proyecto</item>
+        <item>Evento</item>
+    </string-array>
+<!--        <string name="default_web_client_id" translatable="false">416301751423-jrtb7qqmi062n7qmhpo7kklhi46hmgpo.apps.googleusercontent.com</string>-->
+
+    <string name="facebook_app_id" translatable="false">365021288980526</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb365021288980526</string>
+    <string name="facebook_client_token">f8951b17641e5ec8a27650e1ce4576b2</string>
+</resources>

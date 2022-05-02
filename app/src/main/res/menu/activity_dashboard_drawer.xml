@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/mainmenu"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_24"
+            android:title="Inicio" />
+
+        <!--   <item
+               android:id="@+id/wishlist"
+               android:icon="@drawable/ic_nofav"
+               android:title="My WishList" />-->
+        <item
+            android:id="@+id/myProfile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Mi Perfil" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Salir" />
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/submenu"
+        android:checkableBehavior="single"
+        android:visible="false">
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share_24"
+            android:title="Share App" />
+
+        <item
+            android:id="@+id/rateus"
+            android:icon="@drawable/ic_star_24"
+            android:title="Rate us" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ndroid="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/app_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/semi_bold"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="@font/semi_bold"
+            android:text="Email "
+            android:textColor="#6E6A6A"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/round_edittext"
+            android:fontFamily="@font/regular"
+            android:hint="Ingrese correo electrónico"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="@font/semi_bold"
+            android:text="@string/password"
+            android:textColor="#6E6A6A"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/round_edittext"
+            android:fontFamily="@font/regular"
+            android:hint="Ingresar Contraseña"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/semi_bold"
+            android:text="Forgot Password?"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnLogIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_background"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                ndroid:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:gravity="center_horizontal"
+                    android:text="Nueva aqui?"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvSignUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="@font/bold"
+                    android:gravity="center_horizontal"
+                    android:text="@string/register"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/pbLogin"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="OR"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/fb" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/twitter" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/google" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvFb"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:padding="8dp"
+            ndroid:cardBackgroundColor="#1877F2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:padding="4dp"
+                    android:src="@drawable/fb" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/semi_bold"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="login with Facebook"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:padding="8dp"
+            android:visibility="gone"
+            ndroid:cardBackgroundColor="#55ACEE">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:padding="4dp"
+                    android:src="@drawable/twitter" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/semi_bold"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="login with TWITTER"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:padding="8dp"
+            ndroid:cardBackgroundColor="#FF1701">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:padding="4dp"
+                    android:src="@drawable/google" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/semi_bold"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="login with GOOGLE"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:visibility="gone"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp" />
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
