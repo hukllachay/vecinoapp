@@ -112,7 +112,7 @@ public class NeighborsSelectActivity extends AppCompatActivity {
                                 NeighborsModel neighborsModel = new NeighborsModel();
                                 neighborsModel.setnId(newModel.getUid());
                                 neighborsModel.setnName(newModel.getuName());
-                                neighborsModel.setnNotes("No Description Available");
+                                neighborsModel.setnNotes("No hay descripción");
                                 neighborsModel.setnParStatus("Pendiente");
                                 int finalI = i;
                                 Query query = tableInitiatives.child(iId).child("Neighbors").child(neighborsModel.getnId());
@@ -166,7 +166,7 @@ public class NeighborsSelectActivity extends AppCompatActivity {
                                             NeighborsModel neighborsModel = new NeighborsModel();
                                             neighborsModel.setnId(newModel.getUid());
                                             neighborsModel.setnName(newModel.getuName());
-                                            neighborsModel.setnNotes("No Description Available");
+                                            neighborsModel.setnNotes("No hay descripción");
                                             neighborsModel.setnParStatus("Pendiente");
                                             int finalI = i;
 
@@ -205,7 +205,7 @@ public class NeighborsSelectActivity extends AppCompatActivity {
 
                                             if (finalI == (actorList.size() - 1)) {
                                                 progressDialog.dismiss();
-                                                Toast.makeText(NeighborsSelectActivity.this, "Neighbours Added", Toast.LENGTH_SHORT).show();
+                                                Toast.makeText(NeighborsSelectActivity.this, "Vecinos Agregados", Toast.LENGTH_SHORT).show();
                                                 finish();
                                             }
                                         }
